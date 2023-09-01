@@ -1,1 +1,0 @@
-I denne lille tekst vil vil jeg skrive et stykke tekst hvor på der skal beregnes et lixtal. Det interessante er at finde ud af hvor mange lange ord der kan være i denne beskrivende og lærerige fil af oplysende tillægsord.
