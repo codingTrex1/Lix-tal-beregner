@@ -8,6 +8,8 @@ for (int i = 0; i < text.length; i++) {
 String[] ordListe = split(compiledString, " ");
 println(compiledString);
 
+static final OrdOpdeling
+
 int langeOrd = 0;
 int længdeTekst = ordListe.length;
 println("længdeTekst er " + længdeTekst);
@@ -17,9 +19,9 @@ for (int i = 0; i < ordListe.length; i++) {
   int ordLength = ord.length();
   if (ordLength > 6) {
     langeOrd++;
-    println("antallet af lange ord er " + langeOrd);
   }
 }
 
-int lixtal = (langeOrd / længdeTekst)*100;
+println("antallet af lange ord er " + langeOrd);
+int lixtal = ((længdeTekst / antalPunktum) + (langeOrd / længdeTekst))*100;
 println("lixtallet er " + lixtal);
