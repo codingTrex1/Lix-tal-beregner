@@ -1,4 +1,4 @@
-int ord=0,lixtal=1;
+int ord=0,lixtal=1,seatninger=2;
 
 
 //split ord efter mellemrum
@@ -14,9 +14,10 @@ void draw()
 {
   textSize(100);
   text("Lixtal-beregner",100,200);
-  textSize(50);
-  text("lixtalet er:  "+lixtal,200,300);
-  text("Der er "+ord+" ord i teksten", 200,400);
+  textSize(40);
+  text("lixtalet er:  "+lixtal,100,300);
+  text("Der er "+ord+" ord i teksten", 100,400);
+  text("Derudover er der "+seatninger+" sætninger i teksten", 100,500);
   
   
  
