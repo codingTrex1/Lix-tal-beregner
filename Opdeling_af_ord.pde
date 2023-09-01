@@ -1,17 +1,19 @@
+String[] text = loadStrings("Bog.txt");
 
-//split ord efter mellemrum
-//dette virker
-String ordOpdeling = "The quick brown fx jumps over, the lazy dog.";
-String[] ordListe = split(ordOpdeling, " ");
-printArray(ordListe);
+String compiledString = "";
+for (int i = 0; i < text.length; i++) {
+  compiledString += text[i];
+}
+
+String[] ordListe = split(compiledString, " ");
+println(compiledString);
 
 int langeOrd = 0;
 
-  for (int i = 0; i < ordListe.length; i++) {
+for (int i = 0; i < ordListe.length; i++) {
   String ord = ordListe[i];
   int ordLength = ord.length();
   if (ordLength > 6) {
     langeOrd++;
-    println(langeOrd);
   }
 }
