@@ -8,8 +8,7 @@ for (int i = 0; i < text.length; i++) {
 String[] ordListe = split(compiledString, " ");
 println(compiledString);
 
-static final OrdOpdeling
-
+int antalPunktum = 1;
 int langeOrd = 0;
 int længdeTekst = ordListe.length;
 println("længdeTekst er " + længdeTekst);
